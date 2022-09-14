@@ -1,6 +1,6 @@
 import React from "react";
 
-function Design() {
+const Design = () => {
   return (
     <div>
       <h1 className="design">Design</h1>

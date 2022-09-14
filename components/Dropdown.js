@@ -3,7 +3,7 @@ import { serviceDropdown } from "./NavItems";
 import { Link } from "react-router-dom";
 import "./Dropdown.css";
 
-function Dropdown() {
+const Dropdown = () => {
   const [dropdown, setDropdown] = useState(false);
 
   return (

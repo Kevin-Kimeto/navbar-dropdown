@@ -6,7 +6,7 @@ import { navItems } from "./NavItems";
 import Button from "./Button";
 import Dropdown from "./Dropdown";
 
-function Navbar() {
+const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
 
   return (

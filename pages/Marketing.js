@@ -1,6 +1,6 @@
 import React from "react";
 
-function Marketing() {
+const Marketing = () => {
   return (
     <div>
       <h1 className="marketing">Marketing</h1>

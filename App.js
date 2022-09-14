@@ -12,7 +12,7 @@ import Products from "./pages/Products";
 import Services from "./pages/Services";
 import Signup from "./pages/Signup";
 
-function App() {
+const App = () => {
   return (
     <>
       <BrowserRouter>
